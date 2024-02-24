@@ -1,0 +1,66 @@
+/* Reset default browser styles */
+html, body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Main styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Choice styles */
+.choice {
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Outcome styles */
+#outcome-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
